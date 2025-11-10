@@ -18,8 +18,9 @@ body {
 }
 
 main{
-    height: 100vh;
     position: relative;
+    height: 100vh;
+    
 }
 
 section#telefone{
@@ -27,13 +28,16 @@ section#telefone{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    height: 530px;
-    width: 258px;
-    background: url('') no-repeat;
+    height: 428px;
+    width: 208px;
+    background: url('../pacote-d013/imagens/frameiphone16.png') no-repeat;
 }
 
 iframe#tela {
     position: relative;
-    top: 50px;
-    left: 1000px;
+    top: 7px;
+    left: 8px;
+    border-radius: 31px;
+    width: 192px;
+    height: 413px;
 }
